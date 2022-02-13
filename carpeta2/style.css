@@ -1,0 +1,42 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+    color:goldenrod;
+    text-align: center;
+}
+
+h3 {
+    font-variant: small-caps;
+    color:sienna;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.contact {
+    margin-right: 20px;
+    background-color:goldenrod;
+    color:white;
+    text-align: center;
+}
