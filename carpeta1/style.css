@@ -1,3 +1,72 @@
-h1 {
-    color:peru;
+.button {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+a:visited, a:link {text-decoration:none;}
+a:hover, a:active {text-decoration:underline;}
+
+#photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+
+.bar {
+    float: right;
+}
+
+.logo {
+    position: absolute;
+    bottom: 70%;
+    left: 35%;
+    width: 30%;
+}
+
+input {
+    position: absolute;
+    bottom: 60%;
+    left: 25%;
+    width: 600px;
+    box-sizing: 20px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+}
+
+.sb {
+    position: absolute;
+    bottom: 47%;
+    left: 39%;
+    text-align: center;
+}
+
+span{
+    color: blue;
+}
+span:hover, span:active {text-decoration:underline;}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(229, 226, 226, 0.89);
+    color:rgb(109, 106, 106);
+    padding-left: 30px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.last {
+    position: fixed;
+    right: 5%;
+    bottom: 0;
+    text-align: right;
 }
